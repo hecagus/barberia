@@ -1,0 +1,232 @@
+body, head, header, footer{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background: url(baner/banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* fondo midificado */
+}
+.logo-blanco{
+    margin-left: -120px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:210px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #f5ebeb;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+border-color: #c78c19;
+}
+.productos li:active{
+    border-color: #088c19;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 33px;
+}
+.producto-descripcion{
+    font-size: 20px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+ background: url(baner/bg.svg);
+}
+.Copyright{
+    color: antiquewhite;
+    font: 16px;
+    margin: 20px;
+}
+
+
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 100 0 10px;
+}
+
+.imput-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 100px;
+}
+p.test{
+    color: blue;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background: red;
+    transform: scale(1.2);
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*home/**/
+.principal{
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.titulo-principal::first-letter{
+    font: bold;
+}
+p::first-line{
+    font-style: italic;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+font-weight: bold;
+}
+.principal em{
+    font-size: italic;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0 ;
+}
+.mapa{
+    padding: 3m 0;
+    background: linear-gradient(#fefefe,#888888);
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa-contenido{
+   width:940px ; 
+   margin: 0 auto;
+   
+}
+.diferenciales{
+   padding: 3em;
+    background: #888888;
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 3.5;
+}
+.items:before{
+    content: "🪒"
+}
+.items:first-child{
+    font-weight: bold;
+}
+.imagen-diferenciales{width: 50%;}
+.video{
+    width: 460px;
+    margin: 1em auto;
+}
+.titulo-principal h3{
+     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;}
+        @media screen and (max-width: 480px) { 
+            .caja, .principal .mapa-contenido .contenido-diferenciales .video {
+               width: auto;
+            }
+         }
+         
